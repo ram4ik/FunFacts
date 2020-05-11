@@ -13,6 +13,8 @@
 		1D268C762469A998004EF542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D268C752469A998004EF542 /* Assets.xcassets */; };
 		1D268C792469A998004EF542 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D268C782469A998004EF542 /* Preview Assets.xcassets */; };
 		1D268C7C2469A998004EF542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D268C7A2469A998004EF542 /* LaunchScreen.storyboard */; };
+		1D268C842469AA8E004EF542 /* facts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D268C832469AA8E004EF542 /* facts.swift */; };
+		1D268C862469ADEA004EF542 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D268C852469ADEA004EF542 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1D268C782469A998004EF542 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D268C7B2469A998004EF542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D268C7D2469A998004EF542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D268C832469AA8E004EF542 /* facts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facts.swift; sourceTree = "<group>"; };
+		1D268C852469ADEA004EF542 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				1D268C7A2469A998004EF542 /* LaunchScreen.storyboard */,
 				1D268C7D2469A998004EF542 /* Info.plist */,
 				1D268C772469A998004EF542 /* Preview Content */,
+				1D268C832469AA8E004EF542 /* facts.swift */,
+				1D268C852469ADEA004EF542 /* Colors.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D268C702469A995004EF542 /* AppDelegate.swift in Sources */,
+				1D268C862469ADEA004EF542 /* Colors.swift in Sources */,
 				1D268C722469A995004EF542 /* SceneDelegate.swift in Sources */,
 				1D268C742469A995004EF542 /* ContentView.swift in Sources */,
+				1D268C842469AA8E004EF542 /* facts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
